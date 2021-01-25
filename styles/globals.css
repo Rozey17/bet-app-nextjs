@@ -1,16 +1,23 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.container {
+  background-color: dimgrey;
+}
+
+.cart {
+  border: 5px solid royalblue;
+  font-size: larger;
+  background-color: ivory;
+  width: 700px;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 0;
+  margin: auto;
+}
+
+.cart h2 {
+  color: darkgreen;
 }
